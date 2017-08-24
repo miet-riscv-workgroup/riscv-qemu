@@ -348,7 +348,7 @@
 #define IRQ_M_EXT       11 /* until: priv-1.9.1 */
 
 /* Default addresses */
-#define DEFAULT_RSTVEC     0x00001000
+#define DEFAULT_RSTVEC     0xf0000000
 
 /* RV32 satp field masks */
 #define SATP32_MODE 0x80000000
