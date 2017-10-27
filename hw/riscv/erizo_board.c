@@ -128,6 +128,9 @@ static void erizo_init(MachineState *args)
 
     serial_mm_init(system_memory, 0x90000000LL, 2, NULL,
         115200, serial_hds[0], DEVICE_NATIVE_ENDIAN);
+
+    serial_mm_init(system_memory, 0xA0000000LL, 2, NULL,
+        115200, serial_hds[1], DEVICE_NATIVE_ENDIAN);
 }
 
 static int erizo_sysbus_device_init(SysBusDevice *sysbusdev)
