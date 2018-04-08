@@ -25,6 +25,8 @@
 
 enum { ROM_BASE = 0x1000 };
 
+#include "hw/riscv/riscv_hart.h"
+
 typedef struct {
     /*< private >*/
     SysBusDevice parent_obj;

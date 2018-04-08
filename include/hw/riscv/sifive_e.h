@@ -19,6 +19,8 @@
 #ifndef HW_SIFIVE_E_H
 #define HW_SIFIVE_E_H
 
+#include "hw/riscv/riscv_hart.h"
+
 #define TYPE_SIFIVE_E "riscv.sifive_e"
 
 #define SIFIVE_E(obj) \

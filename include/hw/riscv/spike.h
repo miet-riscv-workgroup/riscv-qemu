@@ -25,6 +25,8 @@
 #define SPIKE(obj) \
     OBJECT_CHECK(SpikeState, (obj), TYPE_RISCV_SPIKE_BOARD)
 
+#include "hw/riscv/riscv_hart.h"
+
 typedef struct {
     /*< private >*/
     SysBusDevice parent_obj;
