@@ -10,3 +10,4 @@ obj-y += sifive_uart.o
 obj-y += spike.o
 obj-y += virt.o
 obj-y += erizo_board.o
+obj-y += bus_spider.o
